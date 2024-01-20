@@ -176,9 +176,9 @@
 </template>
 <script setup>
 import { ref } from 'vue';
-import event from '@/assets/event.png'
-import brief from '@/assets/briefcase1.png'
-import connect from '@/assets/connect.png'
+import event from '@/assets/event.png';
+import brief from '@/assets/briefcase1.png';
+import connect from '@/assets/connect.png';
 
   
   const histories = ref([
