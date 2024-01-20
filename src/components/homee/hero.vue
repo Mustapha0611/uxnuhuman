@@ -1,10 +1,10 @@
 <template>
   <main>
-    <div class="flex md:justify-center flex-col md:flex-row px-5 md:px-10 md:mt-10 my-5 md:pt-10 lg:px-24 items-center lg:h-[90dvh]  ">
+    <div class="flex md:justify-center flex-col md:flex-row px-5 md:px-10 md:mt-10 my-5 md:pt-10 lg:px-24 items-center lg:h-[60dvh]  ">
       <div class="absolute left-3 top-0 hidden md:block">
         <img src="@/assets/elipse.png" alt="blur" />
       </div>
-      <div class="absolute left-3 lg:top-[30rem] top-[45rem] md:top-[40rem] -z-10 lg:h-[45rem] md:h-[30rem] lg:w-[8rem] h-[30rem] w-[5rem]">
+      <div class="absolute left-3 lg:top-[22rem] top-[45rem] md:top-[40rem] -z-10 lg:h-[45rem] md:h-[30rem] lg:w-[7rem] h-[30rem] w-[5rem]">
         <img src="@/assets/left.png" alt="left" class="w-full h-full" />
       </div>
       <section class="flex-1  lg:ml-10">
@@ -151,16 +151,16 @@
         </div>
       </section>
       <section class="flex flex-1 items-center lg:min-w-[30rem] md:justify-center">
-        <div class="md:w-[20rem] md:h-[30rem] lg:w-[25rem] lg:h-[35rem] w-[15rem] h-[22rem] my-10 md:my-0 ">
+        <div class="md:w-[20rem] md:h-[30rem] lg:w-[20rem] lg:h-[30rem] w-[15rem] h-[22rem] my-10 md:my-0 ">
           <img src="@/assets/pp.png" alt="" class="w-full h-full"/>
         </div>
-        <div class="absolute right-0 lg:top-20 md:top-[10rem] top-[7rem]  -z-20 md:w-[15rem] md:h-[40rem] lg:w-[25rem] lg:h-[55rem] w-[6rem] h-[20rem]">
+        <div class="absolute right-0 lg:top-16 md:top-[10rem] top-[7rem]  -z-20 md:w-[15rem] md:h-[40rem] lg:w-[25rem] lg:h-[55rem] w-[6rem] h-[20rem]">
           <img src="@/assets/right.png" alt="right circle" class="h-full w-full">
         </div>
       </section>
     </div>
-    <div class="flex justify-center">
-      <section class="flex items-center flex-col md:flex-row justify-around w-[90%] h-[20rem] bg-white/30 backdrop-blur-md">
+    <div class="flex justify-center my-5">
+      <section class="flex items-center my-5 flex-col md:flex-row justify-around w-[90%] h-[15rem] bg-white/30 backdrop-blur-md rounded-lg">
         <article v-for="his in histories" class="flex items-center" >
           <div>
             <img :src="his.img" alt="img">
