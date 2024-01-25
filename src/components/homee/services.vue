@@ -1,6 +1,6 @@
 <template>
     <main class="w-full flex justify-center ">
-        <div class="w-[86%] h-64 my-5">
+        <div class="w-[86%] h-auto my-5">
             <h2 class="play mb-5 font-semibold text-3xl">SERVICES I PROVIDE</h2>
             <Splide :options="options"  aria-label="Services">
                 <SplideSlide v-for="service of services" class="border-2 border-orange-400 rounded-xl">

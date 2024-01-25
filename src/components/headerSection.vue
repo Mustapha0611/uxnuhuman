@@ -2,7 +2,7 @@
 <header role="banner" class="flex justify-between items-center h-[10vh] bg-white px-4 md:px-10">
   <div class="">
     <router-link to="/" @click="menuToggle" @keyup.enter="menuToggle" >
-      <img src="../assets/logo.svg" alt="Your Website Logo" class="w-24 h-10 md:h-16 md:w-44" />
+      <img src="../assets/logo.svg" alt="Your Website Logo" class="w-32 h-16 md:h-16 md:w-44" />
     </router-link>
   </div>
 
