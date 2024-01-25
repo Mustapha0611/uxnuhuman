@@ -8,7 +8,7 @@
                        <span class="font-semibold">{{ review.name }}</span> <img :src="review.img" alt="service images">
                     </section>
                     <!-- <h3 class="text-center font-semibold text-2xl play">{{ review.title }}</h3> -->
-                    <p class="inter py-5 px-10">{{ review.text }}</p>
+                    <p class="inter py-5 px-5">{{ review.text }}</p>
                 </SplideSlide>
             </Splide>
         </div>
@@ -30,6 +30,7 @@ import '@splidejs/splide/css'
         rewind: true,
         gap:'5rem',
         perPage: 3,
+        arrows: false,
         breakpoints: {
             1020: {
             perPage: 2,
