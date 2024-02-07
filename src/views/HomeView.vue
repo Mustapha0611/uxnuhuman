@@ -4,15 +4,17 @@
   import reviews from '@/components/homee/reviews.vue';
   import portfoliointro from '@/components/homee/portfoliointro.vue';
   import contact from '@/components/homee/contact.vue';
+  import footerSection from '@/components/homee/footerSection.vue';
 </script>
 
 <template>
-  <main>
+  <main class="md:pb-10">
     <hero />
     <services />
     <reviews />
     <portfoliointro />
     <contact />
+    <footerSection />
   </main>
 </template>
 <style>

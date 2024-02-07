@@ -42,11 +42,11 @@
    
     </div>
 </template>
-<style scoped>
+<!-- <style scoped>
 .play{
  font-family: 'Nova Round', system-ui;
 }
 .inter{
     font-family: 'Inter', sans-serif;
 }
-</style>
+</style> -->
