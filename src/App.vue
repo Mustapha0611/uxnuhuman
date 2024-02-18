@@ -15,7 +15,7 @@ import headerSection from './components/headerSection.vue';
   </div>
 </template>
 
-<style scoped>
+<style >
 *{
   font-family: 'Inter', sans-serif;
 }
