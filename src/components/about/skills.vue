@@ -1,7 +1,7 @@
 <template>
   <div class="flex py-5 backdrop-blur-sm justify-center flex-col md:flex-row lg:ml-44 md:ml-10 mx-7 items-center md:items-start">
     <section class="flex-1 ">
-      <h1 class="heading md:text-4xl my-5 drop-shadow-xl text-gray-600 font-semibold">UX design <span class="heading dropshadow">Education</span></h1>
+      <h1 class="heading md:text-4xl md:text-left text-center text-2xl my-5 drop-shadow-xl text-gray-600 font-semibold">UX design <span class="heading dropshadow">Education</span></h1>
       <h2 class="mb-5 text-gray-600 drop-shadow-xl md:text-3xl heading font-semibold">Coursera</h2>
       <div class="flex items-center gap-3">
         <span>
@@ -12,7 +12,7 @@
           <p  class="heading text-gray-700 font-semibold">2022</p>
         </section>
       </div>
-      <h3  class="heading md:text-4xl my-5 drop-shadow-xl text-gray-600 font-semibold">Experience</h3>
+      <h3  class="heading md:text-4xl my-5 drop-shadow-xl text-gray-600 md:text-left text-center text-2xl font-semibold">Experience</h3>
       <div>
         <article v-for="ex of exp" class="mb-5">
             <h4 class="heading md:text-2xl  mt-1 drop-shadow-xl text-gray-600 font-semibold">{{ ex.jobtitle }}</h4>
@@ -21,8 +21,8 @@
       </div>
     </section>
     <section class="flex-1 md:px-20">
-        <h1 class="heading md:text-4xl my-5 drop-shadow-md text-gray-600 font-semibold">Skills</h1>
-        <h2 class="mb-5 text-gray-600 drop-shadow-xl md:text-3xl heading font-semibold">General</h2>
+        <h1 class="heading md:text-4xl text-2xl my-5 md:text-left text-center drop-shadow-md text-gray-600 font-semibold">Skills</h1>
+        <h2 class="mb-5 text-gray-600 text-2xl drop-shadow-xl md:text-3xl heading font-semibold">General</h2>
         <div class="flex md:gap-5 gap-3 flex-wrap max-w-[23rem]">
             <span v-for="sk of skillSet" class="skill play">
                 {{ sk.skill }}

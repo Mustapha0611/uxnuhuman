@@ -2,6 +2,7 @@
 // import { AOS } from 'aos';
 import { RouterView } from 'vue-router'
 import headerSection from './components/headerSection.vue';
+import footerSection from '@/components/footerSection.vue';
 
 </script>
 
@@ -11,6 +12,7 @@ import headerSection from './components/headerSection.vue';
     <Transition name="fade">
       <RouterView class="-z-40" />
     </Transition>
+    <footerSection /> 
   </div>
 </template>
 

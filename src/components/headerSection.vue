@@ -1,15 +1,15 @@
 <template>
 <header role="banner" class="flex justify-between items-center h-[10vh] bg-white px-4 md:px-10">
-  <div class="">
-    <router-link to="/" @click="menuToggle" @keyup.enter="menuToggle" >
+  <div >
+    <router-link to="/" >
       <img src="../assets/logo.svg" alt="Your Website Logo" class="w-32 h-16 md:h-16 md:w-44" />
     </router-link>
   </div>
 
   <nav role="navigation" class="flex md:justify-between">
     <ul role="menu" class="flex  items-center   gap-7 font-semibold text-[18px] flex-col md:flex-row absolute md:static md:h-auto bg-white w-full left-[-100%] h-[100dvh] transition-all top-0 justify-center"
-        :class="{ show: showMenu }" >
-      <span tabindex="0" @click="menuToggle"
+        :class="{ show: showMenu }">
+      <span tabindex="0" @click="menuToggle" @keydown.enter="menuToggle"
             class="md:hidden absolute top-7 right-[5%] w-6 h-6 cursor-pointer opacity-0 transition-opacity"
             :class="{showContact : showMenu}">
             <img src="../assets/close.png" alt="Close" class="w-full h-full" />
