@@ -1,6 +1,5 @@
 <script setup>
 // import { AOS } from 'aos';
-import { onMounted } from 'vue';
 import { RouterView } from 'vue-router'
 import headerSection from './components/headerSection.vue';
 
@@ -15,7 +14,7 @@ import headerSection from './components/headerSection.vue';
   </div>
 </template>
 
-<style >
+<style>
 *{
   font-family: 'Inter', sans-serif;
 }
@@ -27,5 +26,21 @@ import headerSection from './components/headerSection.vue';
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
+}
+.heading {
+  font-family: "Nova Round", system-ui;
+}
+
+.dropshadow {
+  background: linear-gradient(90deg, #ffb100 36.42%, #d45800 94.44%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-size: 76px; */
+  font-style: normal;
+  /* font-weight: 700; */
+  line-height: normal;
+  text-decoration-line: underline;
+  border-bottom: #d45800 solid 4px;
 }
 </style>
