@@ -160,10 +160,10 @@
       </section>
     </div>
     <div class="flex justify-center my-5">
-      <section class="flex items-center my-5 flex-col md:flex-row justify-around w-[90%] h-[15rem] bg-white/30 backdrop-blur-md rounded-lg">
+      <section class="flex items-start md:items-center my-5 flex-col md:flex-row justify-around w-[90%] h-[15rem] bg-white/30 backdrop-blur-md rounded-lg">
         <article v-for="his in histories" class="flex items-center" >
-          <div>
-            <img :src="his.img" alt="img">
+          <div class="w-20 h-20">
+            <img :src="his.img" alt="img" class="w-full h-full">
           </div>
           <div class="flex flex-col py-5 px-5 font-semibold text-[18px] lg:text-2xl">
             <span>{{ his.time }}</span>

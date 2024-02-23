@@ -17,9 +17,7 @@ import footerSection from '@/components/footerSection.vue';
 </template>
 
 <style>
-*{
-  font-family: 'Inter', sans-serif;
-}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s ease;

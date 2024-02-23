@@ -19,21 +19,23 @@
           </article>
         </div>
         <div class="flex md:w-1/2 justify-center items-center">
-          <form action="">
+          <form action="https://submit-form.com/IEr95TqVe">
             <div class="flex gap-3 mb-4 w-fit">
               <input
                 type="text"
-                name="Name"
+                name="FirstName"
                 aria-label="Name"
                 placeholder="Your Name"
                 class="md:px-5 md:py-3 px-3 py-2 font-semibold rounded-lg w-[48%]"
+                required
               />
               <input
                 type="text"
-                name="Name"
+                name="LastName"
                 aria-label="Name"
                 placeholder="Your Name"
                 class="px-5 py-3 font-semibold rounded-lg w-[48%]"
+                required
               />
             </div>
             <div class="mb-4">
@@ -43,6 +45,7 @@
                 aria-label="email"
                 placeholder="Your Email"
                 class="px-5 py-3 font-semibold w-full rounded-lg"
+                required
               />
             </div>
             <div>
@@ -54,6 +57,7 @@
                 rows="6"
                 class="w-full p-5 rounded-lg"
                 placeholder="Your message"
+                required
               ></textarea>
             </div>
             <div>

@@ -20,7 +20,7 @@
     </ul>
   </nav>
 
-  <div class="absolute md:static md:h-auto md:w-auto w-full left-0 top-[30rem] md:top-0 flex items-end justify-center opacity-0 md:opacity-100 transition-opacity"
+  <div class="absolute md:static md:h-auto md:w-auto w-full left-0 top-[33rem] md:top-0 flex items-end justify-center opacity-0 md:opacity-100 transition-opacity"
         :class="{showContact : showMenu}">
     <button aria-label="Contact" class="text-white md:px-7 md:py-3 linear py-2 px-5 rounded-md">Contact</button>
   </div>
