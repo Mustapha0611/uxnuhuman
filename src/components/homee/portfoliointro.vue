@@ -5,8 +5,8 @@
             Portfolio
         </h2>
         <button type="button" class="flex md:w-52 px-5 h-14 text-white rounded-md items-center justify-center gap-6 bg-gradient-to-r from-orange-400 to-orange-600">
-           <span> View All</span>
-           <img src="@/assets/arrow.png" alt="arrow right" class="w-12 h-12" />
+          <router-link to="/portfolio" class="flex items-center gap-5"> <span> View All</span>
+           <img src="@/assets/arrow.png" alt="arrow right" class="w-12 h-12" /></router-link>
         </button>
         </section>
         <section class="mb-10">

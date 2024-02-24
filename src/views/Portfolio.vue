@@ -17,7 +17,7 @@
     color: #d45800;
 }
 .play{
- font-family: 'Nova Round', system-ui;
+    font-family: "Play", sans-serif;
 }
 .inter{
     font-family: 'Inter', sans-serif;
