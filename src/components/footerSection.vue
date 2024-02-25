@@ -7,7 +7,8 @@
                 </li>
             </ul>
         </section>
-        <section class="font-semibold text-xl play">
+        <section class="font-semibold text-xl play text-center">
+            <p class="text-3xl py-3">nuhualiyyu@gmail.com</p>
             &copy; 2023 NUHU ALIYU
         </section>
     </div>
