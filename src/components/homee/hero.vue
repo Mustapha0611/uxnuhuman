@@ -159,8 +159,8 @@
         </div>
       </section>
     </div>
-    <div class="flex justify-center my-5">
-      <section class="flex items-start md:items-center my-5 flex-col md:flex-row justify-around w-[90%] h-[15rem] bg-white/30 backdrop-blur-md rounded-lg">
+    <div class="flex justify-center md:my-10 my-5">
+      <section class="flex items-start md:items-center md:my-10 flex-col md:flex-row justify-around w-[90%] h-[15rem] bg-white/30 backdrop-blur-md rounded-lg">
         <article v-for="his in histories" class="flex items-center" >
           <div class="w-20 h-20">
             <img :src="his.img" alt="img" class="w-full h-full">

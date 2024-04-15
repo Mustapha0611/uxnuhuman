@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="flex justify-center gap-10 font-semibold play sticky  top-[70px] z-50 bg-gray-50">
+        <div class="flex justify-center gap-10 font-semibold play sticky  top-[59px] z-0 bg-white">
             <router-link :to="{name:'ui'}">UI/UX Design</router-link>
             <router-link :to="{name:'graphics'}">Graphic Design</router-link>
         </div>
